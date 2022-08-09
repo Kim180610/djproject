@@ -1,0 +1,12 @@
+{% extends 'blog/base.html' %}
+{% block head_title %} {{post.title}} -Blog {% endblock %} 
+{% block main_area %}
+    <h1>{{ post.title }}</h1>
+    <h4>{{post.cerated_at }}</h4>
+    <p>{{ post.content }}</p>
+    <br />
+    <h3>여기 댓글이 들어올 수 있겠죠?</h3>
+
+
+
+{% endblock %} 
